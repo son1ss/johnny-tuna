@@ -1,0 +1,92 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 24px 16px 0;
+  max-width: 1520px;
+  width: 100%;
+}
+
+.header a {
+  color: inherit;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.company {
+  display: flex;
+}
+
+.divider {
+  height: 100%;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 30px
+}
+
+.nav > a {
+  width: max-content;
+}
+
+.location {
+  color: #999;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.contacts {
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-end;
+}
+
+.contacts a {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+}
+
+.contacts p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  color: #999;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.categories {
+  display: flex;
+  gap: 32px;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px
+}
+
+.button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.icon {
+  height: 26px;
+}

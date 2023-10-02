@@ -1,0 +1,15 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  max-width: 1520px;
+  padding: 20px;
+}
+
+.cards {
+  display: flex;
+  gap: 24px 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
